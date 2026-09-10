@@ -22,7 +22,7 @@ Ringkasan lengkap dan panduan praktis berdasarkan video tutorial [Kelas Terbuka]
 
 Sebelum menginstal Docker Desktop di Windows, pastikan beberapa hal berikut sudah siap:
 * **WSL2 (Windows Subsystem for Linux 2):**
-  Docker Desktop di Windows disarankan menggunakan backend WSL2 daripada Hyper-V agar performa lebih cepat dan tidak perlu mengubah konfigurasi BIOS `[00:06:02]`.
+  Docker Desktop di Windows disarankan menggunakan backend WSL2 daripada Hyper-V agar performa lebih cepat dan tidak perlu mengubah konfigurasi BIOS `[00:06:02]`. [Tutorial Install WSL 2](https://github.com/adisaputra0/tutorial-docker/tree/wsl2)
 * **Akun Docker Hub:**
   Siapkan akun Docker Hub (bisa *sign up* langsung menggunakan akun Google/GitHub) untuk kemudahan *pull* dan *push* image `[00:06:53]`.
 

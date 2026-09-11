@@ -73,3 +73,21 @@ Settings > Resources > WSL Integration
 ```
 
 sudah mengaktifkan distro Ubuntu kamu.
+
+---
+
+Cek Status WSL
+```bash
+wsl -l -v
+```
+
+Menjalankan WSL, Gunakan perintah berikut di Terminal:
+```bash
+wsl
+```
+Atau klik tanda panah kecil di sebelah tombol + pada Windows Terminal / PowerShell, lalu pilih Ubuntu.
+
+Menghentikan WSL
+```bash
+wsl --shutdown
+```

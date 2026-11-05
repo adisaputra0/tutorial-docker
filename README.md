@@ -151,10 +151,28 @@ Build ulang image dengan nama baru:
 docker build -t node-app:alpine .
 ```
 
-Jalankan container menggunakan image alpine:
+Buat dan jalankan container menggunakan image alpine:
 
 ```bash
 docker run -p 3000:3000 node-app:alpine
+```
+
+Sebelum buat dan jalankan container menggunakan image alpine, lebih baik buat namanya dulu:
+
+```bash
+docker run -d -p 3000:3000 --name my-node-app node-app:alpine
+```
+
+Saat di stop dan ingin jalankan container yang sudah ada:
+
+```bash
+docker start nama_container
+```
+
+Kalau mau cek logs:
+
+```bash
+docker logs nama_container
 ```
 
 ---
